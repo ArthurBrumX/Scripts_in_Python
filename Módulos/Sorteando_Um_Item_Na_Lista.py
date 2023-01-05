@@ -28,11 +28,15 @@ pessoa_4 = input ("Digite o Quarto Nome: ")
 sorteio = [pessoa_1, pessoa_2, pessoa_3, pessoa_4]
     # Variável = Sorteio
         # pessoas Que Irao Participar Do Sorteio.
+            # Uma Lista Em Python Fica Dentro De [] "colchetes"
 
 escolhindo = random.choice(sorteio)
     # Solicitando a Funcao (Choice) Da Biblioteca (Random).
         # Se for Declarar Que só irá usar a Função (Choice)
             # Basta Apenas Adcionar (escolhido = choice(sorteio))
+                # Choice -> Uma Escolha Dentro Da Lista
 
-print ("Parabens {}, voçê Foi o Sorteado!".format(escolhindo))
-    #Imprimindo Na Tela!
+print ("Parabéns {}! voçê Foi o Sorteado!".format(escolhindo))
+    # Imprimindo Na Tela!
+
+print ("=" * 40)
