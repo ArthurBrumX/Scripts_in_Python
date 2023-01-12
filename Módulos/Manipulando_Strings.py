@@ -1,10 +1,10 @@
-# Tratamento De Cadeia De Caractere
+# Manipulando Textos
 
-    # Fatiamento De Caracteres
+    # 1° Fatiamento De Caracteres
 
-    # Fatiamento Se Resume em pegar pedaços de uma determinada Frase.
+        # Fatiamento Se Resume Em Pegar Pedaços De Uma Determinada Frase.
 
-    # Toda Contagem De Strings Sempre Começa com 0
+        # Toda Contagem De Strings Sempre Começa com (0) - Zero
 
     # -----------------------------------------------------------------------------------
 
@@ -12,21 +12,27 @@
 
         # Exemplos De Fatiamento De Strings
 
-            # Fatiamento : Frase [9] = (Vai mostras apenas o caracter 9)
+            # Fatiamento: Frase [9] = (Vai mostras apenas o caracter 9)
 
                 # Resposta: e
+
+                # Ex: print (frase[9])
             
-                # O primero Numero mostra Qual o valor alfabetico daquele espaço
+                # O Primero Número Mostra Qual o Valor Alfabetico Daquele Espaço.
 
-            # Fatiamento: Frase[5:19] - Vai Mostras Apenas do espaço 9 até o 18
+            # Fatiamento: Frase[5:19] - 
 
-                # Resposta: Chovendo Muito
+                # Vai Mostras Apenas do espaço 9 até o 18.
 
-                # O primeiro Sempre Vai Ser Exato, Porém o Ultimo Será Um Pra Trás
+                # Resposta: Chovendo Muito.
 
-                # O Ultimo é sempre Um a menos
+                # O Primeiro Sempre Vai Ser Exato, Porém o Ultimo Será Um Pra Trás.
 
-            # Fatiamento: Frase[5:19:2] - Vai mostra apartir do espaço 5 e vai até o espaço 18 Pulando De 2 Em 2
+                # O Ultimo é Sempre Um a Menos.
+
+            # Fatiamento: Frase[5:19:2]
+
+                # Vai Mostra Apartir Do Espaço 5 e Vai Até o Espaço 18 Pulando De 2 Em 2
 
                 # Resposta: coed ut
 
@@ -87,6 +93,41 @@
             # frase.lower()
 
                 # Transforma a string toda para minuscula
+                # Resposta: esta chovendo muito
+
+            # frase.capitalize()
+
+                # vai transforma todas os caracteres em minusculo, menos a primeira letra
+
+                # Resposta: Esta chuvendo muito
+
+            # frase.title()
+
+                # Vai analisar quantas palavras tem na strings
+
+                # Resposta: 3 palavras
+
+            # frase.strip()
+
+                # Vai remover Todos os espacos inuteis no comeco e no fim das strings
+
+                # frase.rstrip()
+                    # Vai eliminar os espacos vazios da direita
+
+                # frase.lstrip()
+                    # Vai eliminar os espacos vazios da esquerda()
+
+            # Frase.split() - divisao
+
+                # Gera uma lista com todas as cadeias de caracteres
+
+            # '-'.join(frase) - Juncao
+
+                # Vai Juntar a frase
+
+                # Resposta: Esta-chovendo-muito
+
+            
 
             
 
