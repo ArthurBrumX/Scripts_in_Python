@@ -36,11 +36,11 @@
 
                 # Resposta: coed ut
 
-                # O Primeiro Mostra Qual A partir de Qual Espaço ele ira mostrar
+                # O Primeiro Mostra Qual A partir de Qual Espaço Ele Ira Mostrar.
 
-                # O segundo Vai Dizer ate onde ele vai contar (Sendo sempre um a menos)
+                # O segundo Vai Dizer Até Onde Ele Vai Contar (Sendo Sempre Um a Menos).
 
-                # O Terceirp Vai Dizer o quanto ele quer q pule
+                # O Terceiro Vai Dizer o Quanto Ele Quer Que Pule.
 
         # Analise De Frase
 
@@ -48,7 +48,7 @@
 
                 # len(frase)
              
-                    # Vai mostra o Numero De Caracteres Que a Variavel Possui
+                    # Vai mostra o Número De Caracteres Que a Variável Possui
 
                     # Resposta = 18 Caracters
 
@@ -120,6 +120,8 @@
             # Frase.split() - divisao
 
                 # Gera uma lista com todas as cadeias de caracteres
+
+                # Divide a frase a cada espaço dado
 
             # '-'.join(frase) - Juncao
 
