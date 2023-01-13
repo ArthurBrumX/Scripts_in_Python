@@ -115,11 +115,11 @@
                     # Vai eliminar os espacos vazios da direita
 
                 # frase.lstrip()
-                    # Vai eliminar os espacos vazios da esquerda()
+                    # Vai Eliminar Os Espacos Vazios Da Esquerda()
 
-            # Frase.split() - divisao
+            # Frase.split() - Dvisão
 
-                # Gera uma lista com todas as cadeias de caracteres
+                # Gera Uma Lista Com Todas as cadeias de caracteres
 
                 # Divide a frase a cada espaço dado
 
