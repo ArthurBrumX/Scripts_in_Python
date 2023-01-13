@@ -64,6 +64,8 @@
 
                     # Solicita ao programa para dizer em que momento começou o 'ndo' que ele e encontrou no programa
 
+                    # le apenas uma palavra
+
                     # Resposta: 10, 11, 12
 
                 # frase.find('android')
@@ -120,6 +122,8 @@
             # Frase.split() - Dvisão
 
                 # Gera Uma Lista Com Todas as cadeias de caracteres
+
+                # irá colocar numa lista os nomes inteiros
 
                 # Divide a frase a cada espaço dado
 

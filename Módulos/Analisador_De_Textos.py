@@ -30,5 +30,16 @@ print ("Seu Nome tem {} letras".format(len(nome) - nome.count(' ')))
 
     # Sem Contar Espaços.
 
-print ("Seu primeiro nome tem {} letras".format(nome.find(' ')))
+# print ("Seu primeiro nome tem {} letras".format(nome.find(' ')))
+
+separa = nome.split()
+
+    # Split vai separar os nome inteiros e numera-los a partir do 0
+
+    # Ex: nome = maria de lurdes.
+        # maria(0), de(1), Lurdes(2).
+
+print ("Seu primeiro nome é {} e ele tem {} letras".format(separa[0], len(separa[0])))
+
+    # .len vai contar apenas a parte separada pelo split, nesse caso, apenas o primeiro nome.
 
