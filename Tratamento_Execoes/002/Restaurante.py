@@ -25,7 +25,7 @@ if Pedido == 1:
         print("O valor da Conta ficou: R$15,00")
 elif Pedido == 2:
     print ("Voce Escolheu Lasanha")
-    gorjeta = input("Deseja Pagar a Gorjeta do Garçom: [S/N]")
+    gorjeta = input("Deseja Pagar a Gorjeta do Garçom [S/N]: ")
     if gorjeta == "S":
         valor_conta = 25 + ((10 * 25) / 100)
         print("o valor da conta ficou: R${}".format(valor_conta))
