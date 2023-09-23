@@ -7,4 +7,9 @@ class celular:
         self.ano_lanc = ano_lanc
 
 
-c1 = celular("note-9","Xiaomi","azul","8cm","2021")
+# tarefas da enilda pra entrega
+# termina a apresentacao de pysimpleGUI
+# Material da Estacio pra revisa
+# Curso eM video de poo pra termina
+
+
